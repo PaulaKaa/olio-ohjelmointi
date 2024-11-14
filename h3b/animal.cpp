@@ -1,13 +1,15 @@
 #include "animal.h"
 
-Animal::Animal() {}
+Animal::Animal() {
+
+}
 
 void Animal::callOut()
 {
     cout<<"Elain aantelee."<<endl;
 }
 
-Animal::~Animal()
+Animal:: ~Animal()
 {
     cout<<"Animal-olio tuhottiin"<<endl;
 }
